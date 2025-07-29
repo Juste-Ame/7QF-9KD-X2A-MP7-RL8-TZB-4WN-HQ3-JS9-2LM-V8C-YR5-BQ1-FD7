@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Escape JIT</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="background"></div>
+
+  <div class="container">
+    <h1 id="dynamicText" class="fade"></h1>
+
+
+    <div id="gameSection" class="hidden">
+      <p id="timer">Temps restant : 180s</p>
+      <input type="text" id="codeInput" placeholder="Entrez le code...">
+      <button onclick="checkCode()">Valider</button>
+      <p id="message"></p>
+      <p id="hint" class="hidden">Indice : Veni, Vidi Vici</p>
+    </div>
+
+    
+    <h1 id="success" class="hidden success-glow">Bienvenue au Girls Camp</h1>
+    <h1 id="fail" class="hidden">Vous attendrez demain.</h1>
+  </div>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
