@@ -1,4 +1,4 @@
-const correctCode = "clochette";
+const correctCode = "swag";
 let attemptsLeft = 5;
 let timeLeft = 180;
 let timerInterval;
